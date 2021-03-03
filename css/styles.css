@@ -586,6 +586,7 @@ footer .container .icons i {
 
 #blog .featured-post .card img {
   width: 50%;
+  height: 100%;
 }
 
 #blog .featured-post .card .blog-prev-info {
