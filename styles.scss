@@ -563,6 +563,7 @@ footer {
     .card {
       display: flex;
       text-align: left;
+      max-height: 716px;
 
       a {
         color: black;
@@ -670,7 +671,6 @@ footer {
       .card {
         flex-direction: column;
         width: 100%;
-        max-height: 716px;
 
         .blog-prev-info {
           padding: 20px;
