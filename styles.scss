@@ -664,7 +664,7 @@ footer {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 950px) {
   #blog {
     .featured-post {
       .card {
@@ -678,7 +678,7 @@ footer {
 
         img {
           width: 100%;
-          height: 100%;
+          height: 100% !important;
         }
       }
 

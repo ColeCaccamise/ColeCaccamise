@@ -678,7 +678,7 @@ footer .container .icons i {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 950px) {
   #blog .featured-post .card {
     flex-direction: column;
     width: 100%;
@@ -689,7 +689,7 @@ footer .container .icons i {
   }
   #blog .featured-post .card img {
     width: 100%;
-    height: 100%;
+    height: 100% !important;
   }
   #blog .featured-post .card-reverse {
     flex-direction: column;
