@@ -689,6 +689,7 @@ footer .container .icons i {
   }
   #blog .featured-post .card img {
     width: 100%;
+    height: 100%;
   }
   #blog .featured-post .card-reverse {
     flex-direction: column;
