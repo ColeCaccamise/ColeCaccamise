@@ -577,7 +577,8 @@ footer {
 
       img {
         width: 50%;
-        height: 100%;
+        max-height: 255px;
+        object-fit: cover;
       }
 
       .blog-prev-info {
@@ -701,6 +702,8 @@ footer {
         img {
           width: 100%;
           max-height: 350px;
+          object-fit: cover;
+          object-position: center;
         }
       }
 
