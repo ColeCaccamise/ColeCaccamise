@@ -193,6 +193,7 @@ h3 {
 .hero .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .hero .container .main-info {
@@ -229,7 +230,7 @@ h3 {
   text-align: center;
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 100px;
   animation: up-down 1s alternate infinite;
 }
 
@@ -589,7 +590,6 @@ footer .container .icons i {
 
 #blog .blog-heading p {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
 }
 
 #blog .featured-post h1 {
@@ -693,9 +693,6 @@ footer .container .icons i {
 }
 
 @media (min-width: 1150px) {
-  .hero .container {
-    align-items: center;
-  }
   .hero .container .img img {
     width: 300px !important;
   }
@@ -857,6 +854,9 @@ footer .container .icons i {
   #blog .blog-heading h1 {
     font-size: 25px;
     text-align: center;
+  }
+  #blog .blog-heading p {
+    font-size: 14px;
   }
 }
 
