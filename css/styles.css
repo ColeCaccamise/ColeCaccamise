@@ -543,6 +543,7 @@ footer .container .icons i {
 
 #blog .card {
   width: 800px;
+  max-height: 100%;
   margin: 40px auto;
 }
 
