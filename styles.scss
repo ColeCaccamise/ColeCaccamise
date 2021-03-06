@@ -554,6 +554,10 @@ footer {
     h1 {
       font-size: 55px;
     }
+
+    p {
+      color: rgba(255, 255, 255, 0.7s);
+    }
   }
 
   .featured-post {
@@ -652,6 +656,19 @@ footer {
 }
 
 // media queries
+@media (min-width: 1150px) {
+  .hero {
+    .container {
+      align-items: center;
+      .img {
+        img {
+          width: 300px !important;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 1025px) {
   #about {
     .cards {
@@ -666,7 +683,7 @@ footer {
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1010px) {
   #blog {
     .featured-post {
       .card {

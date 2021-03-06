@@ -569,6 +569,10 @@ footer .container .icons i {
   font-size: 55px;
 }
 
+#blog .blog-heading p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 #blog .featured-post h1 {
   text-align: left;
 }
@@ -666,6 +670,15 @@ footer .container .icons i {
   font-size: 14px;
 }
 
+@media (min-width: 1150px) {
+  .hero .container {
+    align-items: center;
+  }
+  .hero .container .img img {
+    width: 300px !important;
+  }
+}
+
 @media (max-width: 1025px) {
   #about {
     margin-bottom: 700px;
@@ -680,7 +693,7 @@ footer .container .icons i {
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1010px) {
   #blog .featured-post .card {
     flex-direction: column;
     width: 100%;
