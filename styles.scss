@@ -221,6 +221,24 @@ h3 {
       }
     }
   }
+
+  @keyframes up-down {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  .down-arrow {
+    i {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+      animation: up-down 1s alternate infinite;
+    }
+  }
 }
 
 // about
@@ -750,6 +768,12 @@ footer {
         h1 {
           font-size: 28px;
         }
+      }
+    }
+
+    .down-arrow {
+      i {
+        visibility: hidden;
       }
     }
   }

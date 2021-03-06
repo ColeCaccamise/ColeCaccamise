@@ -216,6 +216,23 @@ h3 {
   border-radius: 50%;
 }
 
+@keyframes up-down {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.hero .down-arrow i {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  animation: up-down 1s alternate infinite;
+}
+
 #about {
   text-align: center;
   padding: 40px 0;
@@ -750,6 +767,9 @@ footer .container .icons i {
   }
   .hero .container .main-info h1 {
     font-size: 28px;
+  }
+  .hero .down-arrow i {
+    visibility: hidden;
   }
   .navbar {
     height: 125px;
