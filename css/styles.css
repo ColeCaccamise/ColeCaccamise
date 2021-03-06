@@ -707,7 +707,7 @@ footer .container .icons i {
   }
   #blog .featured-post .card img {
     width: 100%;
-    max-height: 60%;
+    max-height: 350px;
   }
   #blog .featured-post .card-reverse {
     flex-direction: column;
