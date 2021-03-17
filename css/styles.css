@@ -98,6 +98,20 @@ section:before {
   padding: 10px;
 }
 
+.card .btn {
+  text-align: center;
+}
+
+.card .btn i {
+  font-size: 24px;
+  padding: 0 5px;
+}
+
+.card .btns {
+  display: flex;
+  justify-content: center;
+}
+
 .card h1 {
   font-size: 24px;
   font-weight: 600;

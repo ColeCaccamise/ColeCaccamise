@@ -8,3 +8,6 @@ window.onscroll = () => {
     navbar.classList.remove("navbar-shadow");
   }
 };
+
+// dynamic footer year
+year.innerHTML = new Date().getFullYear();
