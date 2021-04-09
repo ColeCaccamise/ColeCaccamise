@@ -410,7 +410,7 @@ footer .container .icons i {
 
 #contact h1 {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 #contact input,
@@ -426,14 +426,14 @@ footer .container .icons i {
 }
 
 #contact input {
-  height: 2.5rem;
-  border-radius: 2rem;
+  height: 3rem;
+  border-radius: 9px;
   width: 100%;
 }
 
 #contact textarea {
   height: 10rem;
-  border-radius: 1.6rem;
+  border-radius: 9px;
   padding: 16px;
   resize: vertical;
   min-height: 50px;
@@ -453,7 +453,7 @@ footer .container .icons i {
   background-color: black;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  border-radius: 25px;
+  border-radius: 9px;
 }
 
 .alt-methods {
