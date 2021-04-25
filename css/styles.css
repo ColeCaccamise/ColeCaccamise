@@ -84,6 +84,10 @@ section:before {
   border-radius: 25px;
 }
 
+.no-border {
+  border: none !important;
+}
+
 .card {
   width: 300px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -545,11 +549,6 @@ footer .container .icons i {
 
 #links .card .link:hover {
   background: rgba(0, 0, 0, 0.05);
-}
-
-#newsletter {
-  min-height: calc(100vh - 80px);
-  padding-top: 30px;
 }
 
 @media (min-width: 1150px) {

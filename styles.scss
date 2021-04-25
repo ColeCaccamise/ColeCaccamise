@@ -90,6 +90,10 @@ section {
   border-radius: 25px;
 }
 
+.no-border {
+  border: none !important;
+}
+
 .card {
   width: 300px;
   box-shadow: $box-shadow;
@@ -534,12 +538,6 @@ footer {
       }
     }
   }
-}
-
-// Newsletter
-#newsletter {
-  min-height: calc(100vh - 80px);
-  padding-top: 30px;
 }
 
 // media queries
