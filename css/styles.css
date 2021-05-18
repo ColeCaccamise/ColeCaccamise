@@ -464,6 +464,43 @@ footer .container .icons i {
   padding: 30px;
 }
 
+#wallpapers {
+  min-height: calc(100vh - 80px);
+  text-align: center;
+  padding: 80px 15px 0 15px;
+}
+
+#wallpapers h1 {
+  font-size: 30px;
+}
+
+.wallpaper {
+  margin: auto;
+  width: 100%;
+}
+
+.wallpaper a {
+  text-decoration: underline;
+}
+
+.wallpaper h3,
+.wallpaper h4 {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.wallpaper h4 {
+  font-size: 20px;
+}
+
+.wallpaper h5 {
+  font-size: 17px;
+}
+
+.wallpaper img {
+  width: 100%;
+}
+
 #submitted,
 #error {
   min-height: calc(100vh - 80px);
@@ -648,6 +685,9 @@ footer .container .icons i {
   }
   .hero .down-arrow i {
     visibility: hidden;
+  }
+  .container {
+    width: 100%;
   }
   .navbar {
     height: 125px;
