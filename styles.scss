@@ -339,6 +339,7 @@ h3 {
   h1 {
     text-align: center;
     font-size: 30px;
+    padding-top: 30px;
   }
 
   .experience {
@@ -671,7 +672,7 @@ footer {
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .hero {
     padding-top: 50px;
     height: 600px;
@@ -680,12 +681,14 @@ footer {
       align-items: center;
       .main-info {
         width: 100%;
-        max-width: 100%;
+        max-width: 302px;
         align-self: center;
-        text-align: center;
-
+        text-align: left;
+        margin: auto;
+        padding-left: 0;
+        padding-right: 0;
         h1 {
-          font-size: 28px;
+          font-size: 31px;
         }
       }
     }
@@ -822,5 +825,17 @@ footer {
     width: 100%;
     margin: 0 auto;
     padding: 20px 10px;
+  }
+}
+
+@media (max-width: 460px) {
+  .container {
+    padding: 0 35px;
+  }
+
+  .main-info {
+    h1 {
+      font-size: 29px !important;
+    }
   }
 }

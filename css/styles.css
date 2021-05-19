@@ -333,6 +333,7 @@ h3 {
 #education h1 {
   text-align: center;
   font-size: 30px;
+  padding-top: 30px;
 }
 
 #portfolio .experience,
@@ -666,7 +667,7 @@ footer .container .icons i {
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .hero {
     padding-top: 50px;
     height: 600px;
@@ -677,12 +678,15 @@ footer .container .icons i {
   }
   .hero .container .main-info {
     width: 100%;
-    max-width: 100%;
+    max-width: 302px;
     align-self: center;
-    text-align: center;
+    text-align: left;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
   }
   .hero .container .main-info h1 {
-    font-size: 28px;
+    font-size: 31px;
   }
   .hero .down-arrow i {
     visibility: hidden;
@@ -787,6 +791,15 @@ footer .container .icons i {
     width: 100%;
     margin: 0 auto;
     padding: 20px 10px;
+  }
+}
+
+@media (max-width: 460px) {
+  .container {
+    padding: 0 35px;
+  }
+  .main-info h1 {
+    font-size: 29px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
