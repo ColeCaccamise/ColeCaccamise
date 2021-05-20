@@ -464,7 +464,7 @@ footer {
 }
 
 .alt-methods {
-  padding: 30px;
+  padding: 10px;
 }
 
 // Wallpapers
@@ -739,7 +739,7 @@ footer {
   #links {
     margin-top: 39px;
     text-align: center;
-    padding: 20px;
+    padding: 0;
     .card {
       margin: 20px auto;
       width: 100%;
@@ -803,19 +803,6 @@ footer {
   #about {
     .about-info {
       height: 475px;
-    }
-  }
-
-  #blog {
-    .blog-heading {
-      height: 200px;
-      h1 {
-        font-size: 25px;
-        text-align: center;
-      }
-      p {
-        font-size: 14px;
-      }
     }
   }
 }
