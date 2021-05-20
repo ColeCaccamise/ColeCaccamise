@@ -462,7 +462,7 @@ footer .container .icons i {
 }
 
 .alt-methods {
-  padding: 30px;
+  padding: 10px;
 }
 
 #wallpapers {
@@ -562,7 +562,6 @@ footer .container .icons i {
 
 #links {
   text-align: center;
-  padding: 40px;
 }
 
 #links .img {
@@ -722,7 +721,7 @@ footer .container .icons i {
   #links {
     margin-top: 39px;
     text-align: center;
-    padding: 20px;
+    padding: 0px;
   }
   #links .card {
     margin: 20px auto;
@@ -773,16 +772,6 @@ footer .container .icons i {
 @media (max-width: 560px) {
   #about .about-info {
     height: 475px;
-  }
-  #blog .blog-heading {
-    height: 200px;
-  }
-  #blog .blog-heading h1 {
-    font-size: 25px;
-    text-align: center;
-  }
-  #blog .blog-heading p {
-    font-size: 14px;
   }
 }
 
