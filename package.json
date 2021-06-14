@@ -1,0 +1,25 @@
+{
+  "name": "colecaccamise-new",
+  "version": "1.0.0",
+  "description": "portfolio site for cole caccamise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColeCaccamise/colecaccamise.git"
+  },
+  "author": "Cole Caccamise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColeCaccamise/colecaccamise/issues"
+  },
+  "homepage": "https://github.com/ColeCaccamise/colecaccamise#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.3.1"
+  }
+}

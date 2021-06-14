@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "variables";
+
+// Reset styles
 *,
 *:before,
 *:after {
@@ -109,8 +112,8 @@ input {
 }
 
 body {
-  background-color: #212121;
-  color: #a6a5a3;
+  background-color: $bg-color;
+  color: $text-color;
 }
 
 h1,
@@ -119,12 +122,12 @@ h3,
 h4,
 h5,
 h6 {
-  color: #f9f9fb;
+  color: $heading-color;
 }
 
 a {
   text-decoration: none;
-  color: #888888;
+  color: $link-color;
 }
 
 .container {
@@ -136,47 +139,50 @@ section {
   padding: 50px 0;
 }
 
-.navbar-container a {
-  color: #888888;
-  font-size: 16px;
+// Navbar
+.navbar-container {
+  a {
+    color: $link-color;
+    font-size: 16px;
+  }
 }
 
 .menu {
   display: flex;
   justify-content: center;
-}
 
-.menu li {
-  padding: 10px;
-}
+  li {
+    // margin-right: 12px;
+    padding: 10px;
+  }
 
-.menu a {
-  font-weight: 600;
-}
+  a {
+    font-weight: 600;
 
-.menu a:hover {
-  border-bottom: 1px solid black;
-  color: rgba(255, 255, 255, 0.6);
+    &:hover {
+      border-bottom: 1px solid black;
+      color: $hover-color;
+    }
+  }
 }
 
 .logo {
   cursor: pointer;
   font-weight: 700;
-  color: #f9f9fb;
+  color: $heading-color;
   text-align: center;
+  a {
+    color: $heading-color;
+    font-size: 30px;
+
+    &:hover {
+      color: $logo-hover;
+    }
+  }
 }
 
-.logo a {
-  color: #f9f9fb;
-  font-size: 30px;
-}
-
-.logo a:hover {
-  color: rgba(255, 255, 255, 0.85);
-}
-
+// Hero section
 h1 {
   font-weight: 600;
   font-size: 50px;
 }
-/*# sourceMappingURL=styles.css.map */
