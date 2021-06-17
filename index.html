@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google Analytics placeholder -->
     <!-- CSS stylesheets -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="scss/styles.scss">
     <!-- JavaScript -->
     <script src="js/script.js" defer ></script>
     <title>Cole Caccamise</title>
@@ -16,15 +16,15 @@
     <header>
         <nav class="navbar">
           <div class="container navbar-container">
-          <div class="logo"><a href="/">cole caccamise.</a></div>
-          <div class="nav-links">
-            <ul class="menu">
-              <li><a href="/#about">About</a></li>
-              <li><a href="/links">Links</a></li>
-              <li><a href="portfolio">Portfolio</a></li>
-              <li><a href="contact" class="btn">Contact</a></li>
-            </ul>
-          </div>
+            <div class="logo"><a href="/">cole caccamise.</a></div>
+            <div class="nav-links">
+              <ul class="menu">
+                <li><a href="/#about">About</a></li>
+                <li><a href="/links">Links</a></li>
+                <li><a href="portfolio">Portfolio</a></li>
+                <li><a href="contact" class="btn btn-primary">Contact</a></li>
+              </ul>
+            </div>
         </div>
         </nav>
       </header>
@@ -35,22 +35,23 @@
           <!-- Hero -->
           <section id="hero">
               <div class="container hero-container">
-            
-                <div class="hero-heading">
-              <h1>Tech Content Creator.</h1>
-            </div>
-              <div class="hero-copy">
-              <p>I talk about the tech I’m passionate about, but also like to design and code on the side.</p>
-            </div>
-            
-              <div class="hero-cta-buttons">
-                  <a href="" class="btn btn-primary">Get in touch -></a>
-                  <a href="" class="btn btn-secondary">Learn more -></a>
-              </div>
-                
 
-                <div class="hero-img">
-                    <img src="" alt="cole caccamise">
+                <div class="hero-text-wrapper">
+                  <div class="hero-heading">
+                    <h1>Tech <br> Content Creator.</h1>
+                  </div>
+                    <div class="hero-copy">
+                    <p>I talk about the tech I’m passionate about, but also like to design and code on the side.</p>
+                  </div>
+                  
+                    <div class="hero-cta-buttons">
+                        <a href="" class="btn btn-primary">Get in touch ></a>
+                        <a href="#about" class="btn btn-secondary">Learn more ></a>
+                    </div>
+                </div>
+              
+                <div class="hero-img-wrapper">
+                    <img class='hero-img round-img' src="assets/imgs/profile.jpg" alt="cole caccamise">
                 </div>
 
                 <!-- animated chevron placeholder -->
@@ -61,7 +62,13 @@
           <!-- About -->
           <section id="about">
             <div class="container about-container">
-            <h2>About Me.</h2>
+            <div class="about-summary">
+              <h2>About Me.</h2>
+              <h3 class="about-subheading">Passionate creator,dev, designer</h3>
+          </div>
+
+          <div class="about-text"><p>I'm a 17 year old content creator from <span class="bold">Buffalo, NY</span>. I enjoy making videos about my favorite tech products and share my honest thoughs in an entertaining yet straight-forward way. I also like to build and design websites on the side. I'm mostly a front-end guy but want to dive deeper in the future.</p></div>
+            
 
             <!-- about cards -->
             <div class="cards">

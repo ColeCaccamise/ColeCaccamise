@@ -128,11 +128,15 @@ h6 {
 a {
   text-decoration: none;
   color: $link-color;
+
+  &:hover {
+    color: $hover-color;
+  }
 }
 
 .container {
   max-width: 1190px;
-  margin: 25px;
+  margin: 25px auto;
 }
 
 section {
@@ -141,15 +145,16 @@ section {
 
 // Navbar
 .navbar-container {
+  display: flex;
+  justify-content: space-between;
   a {
-    color: $link-color;
     font-size: 16px;
   }
 }
 
 .menu {
   display: flex;
-  justify-content: center;
+  // justify-content: center;
 
   li {
     // margin-right: 12px;
@@ -161,7 +166,6 @@ section {
 
     &:hover {
       border-bottom: 1px solid black;
-      color: $hover-color;
     }
   }
 }
@@ -184,5 +188,90 @@ section {
 // Hero section
 h1 {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 62px;
+  line-height: 70px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-text-wrapper {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: $hero-gap;
+}
+
+.hero-copy {
+  width: 420px;
+  line-height: 1.5;
+
+  p {
+    font-size: 19px;
+    line-height: 35px;
+    letter-spacing: 0.7;
+  }
+}
+
+.hero-cta-buttons {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 12px;
+  border-radius: $radius;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: $heading-color;
+  color: black;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+.btn-secondary {
+  border: 1px solid $heading-color;
+  color: white;
+}
+
+.hero-img {
+  width: 350px;
+}
+
+.round-img {
+  border-radius: 50%;
+}
+
+// About
+#about {
+  .about-heading {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .about-text {
+    margin: 20px 0;
+    width: 80%;
+
+    p {
+      line-height: 1.6;
+    }
+  }
+
+  h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 20px;
+    color: gray;
+  }
 }
